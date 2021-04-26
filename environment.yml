@@ -3,6 +3,7 @@ name: py_test
 dependencies:
   - python=3.8
   - cartopy
+  - pandas
   - pip
   - pip:
     - svgpath2mpl
