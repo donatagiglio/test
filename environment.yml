@@ -7,5 +7,6 @@ dependencies:
   - numpy
   - pandas
   - requests
-pip:
+  - pip
+  - pip:
     - svgpath2mpl
