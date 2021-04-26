@@ -1,0 +1,15 @@
+name: py_test
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - cartopy=0.17.0=py38h9bcff04_1015
+  - matplotlib=3.1.2=py38h9aa3819_0
+  - matplotlib-base=3.2.1=py38h1300a51_0
+  - numpy=1.18.1=py38h1f821a2_1
+  - pandas=1.0.3=py38h6c726b0_0
+  - requests=2.23.0=pyh8c360ce_2
+  -pip:
+    - svgpath2mpl==0.2.1
+  
