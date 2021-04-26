@@ -1,14 +1,11 @@
 name: py_test
-channels:
-  - anaconda
-  - conda-forge
-  - defaults
+
 dependencies:
-  - cartopy=0.17.0
-  - matplotlib=3.1.2
-  - matplotlib-base=3.2.1
-  - numpy=1.18.1
-  - pandas=1.0.3
-  - requests=2.23.0
+  - python=3.8
+  - cartopy
+  - matplotlib
+  - numpy
+  - pandas
+  - requests
   -pip:
-    - svgpath2mpl=0.2.1
+    - svgpath2mpl
