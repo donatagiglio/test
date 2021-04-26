@@ -12,4 +12,3 @@ dependencies:
   - requests=2.23.0=pyh8c360ce_2
   -pip:
     - svgpath2mpl==0.2.1
-  
